@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="./js/jquery-3.5.1.min.js"></script>
+</head>
+
+<body class="fon">
+    <div class="header fixed-top">  
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="#">Главная</a></li>
+                <li><a class="menu__item" href="#">Проекты</a></li>
+                <li><a class="menu__item" href="#">Команда</a></li>
+                <li><a class="menu__item" href="#">Блог</a></li>
+                <li><a class="menu__item" href="#">Контакты</a></li>
+<div class="add-btn2"><button class="add-content">Add content</button></div>
+
+                <input type="text" class="search-inp " placeholder=" Search">
+
+            </ul>
+        </div>
+        <div class="media-logo">
+            <div class="img-logo"><img src="./img/book-logo.png" alt=""></div><span class="book-berry"><b
+                    class="name-logo">Book Berry</b></span>
+        </div>
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item col-md-3">
+                <a class="nav-link " href="#">
+                    <div class="img-logo"><img src="./img/book-logo.png" alt=""><b class="name-logo">Book Berry</b>
+                    </div>
+                </a>
+            </li>
+            <li class="class-item col-md-3 nav-span">
+                <a href=""> <span class="navigation-span">Главная </span></a>
+                <a href=""> <span class="navigation-span"> О нас</span></a>
+                <a href=""><span class="navigation-span"> Контакты</span></a>
+
+
+            </li>
+
+
+            <li class="nav-item search-li col-md-3">
+                <i class="fa fa-search search"></i>
+                <input type="text" class="search-inp " placeholder=" Search">
+                <a href="" class="icons"><i class="fa fa-instagram"></i></a>
+                <a href="" class="icons"> <i class="fa fa-facebook-square"></i></a>
+                <a href="" class="icons"> <i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="nav-item number">
+                <a href=""><span class="number-text">+996 (001) 01-02-03</span></a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="container col-md-6 inps">
+        
+        <div class="inputs">
+            <span class="close-added-inp">&times;</span>
+            <input type="text" placeholder="name" class="name">
+            <input type="text" placeholder="year" class="year">
+            <input type="text" placeholder="image(URL)" class="image">
+            <input type="text" placeholder="description" class="description">
+            <input type="text" placeholder="author" class="author">
+            <input type="text" placeholder="price" class="price">
+            <input type="text" placeholder="rate till 100" class="rate"> <br>
+            <button class="add-btn">Add</button>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="mt-5 books-block d-flex justify-content-between flex-wrap">
+
+        </div>
+
+    </div>
+    <div class="pagenator">
+        
+        <span class="pagi">
+            <button class="prev-btn">Prev</button>
+            <button class="next-btn">Next</button>
+        </span>
+        
+    </div>
+    <div class="add-btn2 media-none"><button class="add-content">Add content</button></div>
+    </div>
+
+
+
+    <div class="main-modal">
+        <div class="inner-modal">
+            <div class="close">
+
+                <span class="btn-close">&times;</span>
+            </div>
+            <ul class="edit-list">
+                <li>Название:<input type="text" placeholder="name" class="edit-name"></li>
+                <li>Год издания:<input type="text" placeholder="year" class="edit-year"></li>
+                <li>Фото:<input type="text" placeholder="image" class="edit-image"></li>
+                <li>Описание:<input type="text" placeholder="description" class="edit-description"></li>
+                <li>Автор:<input type="text" placeholder="author" class="edit-author"></li>
+                <li>Цена:<input type="text" placeholder="price" class="edit-price"></li>
+                <li>Рейтинг:<input type="text" placeholder="rate" class="edit-rate"></li>
+            </ul>
+            <button class="btn-save">Save</button>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

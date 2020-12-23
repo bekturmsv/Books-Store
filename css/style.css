@@ -1,0 +1,390 @@
+body{
+   background-image: url("../img/books-fon.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.main-modal{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5)
+}
+.inner-modal{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 70px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    background-color: #3c3c3c;
+    color: #fff;
+}
+.inner-modal input {
+    display: block;
+    height: 15px;  
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+
+.inner-modal li{
+    list-style-type: none;
+}
+
+.inputs{
+    margin: 15px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+.inputs input{
+    
+    margin: 10px;
+}
+.name-sur{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card{
+    margin-bottom: 30px;
+    -webkit-box-shadow: 11px 13px 18px 1px rgba(0,0,0,0.39);
+-moz-box-shadow: 11px 13px 18px 1px rgba(0,0,0,0.39);
+box-shadow: 11px 13px 18px 1px rgba(0,0,0,0.39);
+
+}
+.card-body{
+    background-color: #dcdcdc;
+}
+.rate{
+    color: red;
+}
+.inner-modal{
+    position: relative;
+}
+.btn-close{
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.btn-save{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn-save:hover{
+    background-color: rgb(53, 50, 50);
+    color: white;
+}
+.edit-list{
+    padding-left: 0;
+}
+body{
+    position: relative;
+}
+.pagi{
+    
+    text-align: center;   
+}
+.page-num{
+    color: #fff;
+    font-size: 20px;
+}
+.page-num:hover{
+    color:#b0becc;
+}
+.pagi button{
+    border: none;
+    border-radius: 5px;
+}
+.pagi button:hover{
+    background-color:#b0becc;
+    color: #000;
+}
+.card-img-top{
+    height: 300px;
+    object-fit: cover;
+}
+.card{
+    margin-top: 50px;
+    
+}
+.header{
+    background-color: gray;
+    width: 100%;
+    height: 60px;
+}
+
+.img-logo img {
+    width: 80px;
+}
+
+
+.nav-item{
+    padding: 0px; 
+    padding-left: 50px;
+}
+.nav-item a {
+    padding: 0;
+}
+.search-inp{
+    border-radius: 40px;
+    
+}
+.search-li{
+    padding: 15px 10px;
+    
+}
+
+.icons{
+    color: #fff;
+    font-size: 20px;
+    margin: 0 6px ;
+}
+.nav-span{
+   padding: 15px 0px;
+}
+.navigation-span{
+    padding: 0px 10px;
+    color: #fff;
+    font-weight: 500;
+    
+}
+
+.navigation-span:hover{
+    color: black;
+}
+.nav-span a:hover {
+    text-decoration: none;
+    
+}
+.inps{
+    margin-top: 100px;
+}
+.number{
+    padding: 17px 0 ;
+}
+.number-text{
+    color: #fff;
+    font-weight: 500;
+}
+.number-text:hover{
+    color: #000;
+}
+.number a:hover{
+    text-decoration: none;
+}
+.icons:hover{
+    color: #000;
+}
+.name-logo{
+    color: #fff;
+    padding: 0px 10px ;
+    font-size: 20px;
+}
+.name-logo:hover{
+    color: #000;
+}
+.price{
+    color:green;
+}
+.pagenator{
+    width: 100%;
+    text-align: center;
+}
+#menu__toggle {
+    opacity: 0;
+  }
+  body{
+      position: relative;
+  }
+  /* .add-btn2{
+      position: absolute;
+      
+      left: 580px;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+  } */
+  .inputs{
+      position: relative;
+  }
+  .close-added-inp{
+      position: absolute;
+      top: 5px;
+      right: 15px;
+      font-size: 25px;
+      cursor: pointer;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+  .hamburger-menu{
+      display: none;
+  }
+  .media-logo{
+      display: none;
+  }
+  .inps{
+      display: none;
+  }
+.add-content{
+    margin-left:40px ;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+@media screen and (max-width:1024px){
+    .search-li{
+        display: flex;
+    }
+    .search-inp{
+        height: 30px;
+    }
+    .nav-span{
+        
+        display: inline;
+        font-size: 14.5px;
+    }
+    .search{
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .nav{
+        visibility: hidden;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    .media-logo{
+        display: flex;
+        margin-left: 350px;
+        margin-top: -25px;
+    }
+    .book-berry{
+        margin-top: 15px;
+    }
+    .add-content{
+        margin: 10px 20px;
+
+    }
+    .media-none{
+        display: none;
+    }
+}
+
+@media screen and (max-width:375px){
+.hamburger-menu{
+    display: block;
+}
+.nav{
+    visibility: hidden;
+}
+.media-logo{
+    display: flex;
+    margin-left: 100px;
+    margin-top: -25px;
+    
+}
+.media-none{
+    display: none;
+}
+
+.book-berry{
+    margin-top: 15px;
+}
+.add-content{
+    
+    margin: 10px 20px;
+}
+.card{
+    margin: 20px auto;
+}
+}
